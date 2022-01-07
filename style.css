@@ -6,6 +6,7 @@ body{
 h1{
         font-size: 70px;
         font-weight: 900;
+        margin: auto;
         margin-top: 0;
 }
 a {
@@ -13,16 +14,15 @@ a {
         display: inline-block;
         
 }
-section {
+.flexible-container {
         display: flex;
 
 }
 
 section img{
         width: 70%;
-        margin-top: 5%;        
-        display: inline-block;
-        position: center;
+        margin: 10%;
+        
 }
 
 .half-width {
@@ -49,4 +49,39 @@ section img{
         color: #448F39;
         font-weight: 700;
         margin-top: 10%;
+}
+.h-title {
+        width:500px;
+        margin: 0 auto;        
+        text-align: center;
+        
+
+}
+
+.text-bottom { 
+        background:#222;
+    color:#fff;
+    display:block;
+    margin:0 auto;
+}
+
+.box {
+    width: 10%;
+    margin: 0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 0.3s;
+    width: 40%;
+    padding: 2%;    
+    margin: 0 2%;
+    
+        
+}
+.box img {
+        width: 100px;
+        text-align: center;
+}
+
+#about {
+        padding: 40px 40px;
 }
