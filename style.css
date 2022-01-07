@@ -51,18 +51,16 @@ section img{
         margin-top: 10%;
 }
 .h-title {
-        width:500px;
-        margin: 0 auto;        
+        width:50%;
+        margin: 3% auto;        
         text-align: center;
-        
-
 }
 
 .text-bottom { 
         background:#222;
-    color:#fff;
-    display:block;
-    margin:0 auto;
+        color:#fff;
+        display:block;
+        margin:0 auto;
 }
 
 .box {
@@ -74,14 +72,45 @@ section img{
     width: 40%;
     padding: 2%;    
     margin: 0 2%;
+    border-radius: 20px;
     
         
 }
 .box img {
         width: 100px;
         text-align: center;
+        
 }
 
 #about {
         padding: 40px 40px;
+}
+.panel{
+        margin: 0 20%;
+        
+}
+
+.panel h2{
+        color:#448F39;
+}
+
+.facebook {
+        background: #4267B2;
+        color: white;
+}
+
+.twitter {
+        background: #00acee;
+
+}
+
+.instagram{
+        background-color: #784ac2;
+}
+
+footer{
+        text-align: center;
+        background-color:#448F39;
+        color: white;
+        padding: 20px 0px;
 }
