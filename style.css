@@ -1,3 +1,51 @@
 body{
         font-family: 'Poppins', sans-serif;
 }
+
+h1{
+        font-size: 70px;
+        font-weight: 900;
+        margin-top: 0;
+}
+a {
+        margin-top: 5%;
+        display: inline-block;
+        
+}
+section {
+        display: flex;
+
+}
+
+section img{
+        width: 70%;
+        margin-top: 5%;        
+        display: inline-block;
+        position: center;
+}
+
+.half-width {
+        width: 50%;
+        margin-left: 5%;
+}
+
+.cta-btn {
+        padding: 10px 40px;
+        background: #448F39;
+        text-decoration: none;
+        margin-right: 2%;        
+        color: #fff;
+}
+.dev-name {
+        color: #448F39;
+}
+.learnmore {
+        background: #E3E3E3;
+        color: #7A7A7A;
+}
+
+.dev-q {
+        color: #448F39;
+        font-weight: 700;
+        margin-top: 10%;
+}
